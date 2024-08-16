@@ -7,11 +7,3 @@ We want our application to extract the names of the song and the singer and stor
 
 - Use `ResponseSchema` to determine the data we want to extract.
 - Use an `OutputParser` from LangChain to extract the data.
-
-## Process
-
-1. Use `ResponseSchema` to determine the data we want to extract.
-2. Use `StructuredOutputParser` to store the extracted data in a JSON dictionary.
-3. Create the `ChatPromptTemplate`.
-4. Input the user's message.
-5. Extract the data and store it in JSON format.
